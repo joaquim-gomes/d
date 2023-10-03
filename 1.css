@@ -1,0 +1,93 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    width: 920px;
+    height: 495px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 173px;
+}
+
+.container .bloco1 {
+    width: 309px;
+    height: 496px;
+    border-radius: 8px;
+    background-color: #E18525;
+}
+
+img {
+    margin-left: 53px;
+    margin-right: 142px;
+    margin-top: 55px;
+}
+
+.container .name {
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    margin-left: 49px;
+    margin-right: 161px;
+    margin-bottom: 42px;
+    margin-top: 42px;
+    font-size: 50px;
+}
+
+.container .des {
+
+    flex-direction: column;
+    margin-left: 49px;
+    margin-right: 49px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.container .botao {
+    width: 148px;
+    height: 49px;
+    background-color: white;
+    border-radius: 40px;
+    border: solid 0px;
+    margin-left: 49px;
+    margin-top: 50px;
+    margin-bottom: 48px;
+}
+
+.container .botao .se {
+    text-decoration: none;
+    color: #E18525;
+    font-size: 15px;
+
+}
+
+.container .bloco2 {
+    width: 309px;
+    height: 496px;
+    background-color: #016972;
+}
+
+.container .bloco3 {
+    width: 309px;
+    height: 496px;
+
+    background-color: #00403F;
+}
+
+.container .botao .su {
+    text-decoration: none;
+    color: #016972;
+    font-size: 15px;
+
+}
+
+.container .botao .lu {
+    text-decoration: none;
+    color: #00403F;
+    font-size: 15px;
+
+}
